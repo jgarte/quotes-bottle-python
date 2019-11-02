@@ -1,5 +1,6 @@
 from bottle import route, run
 from quotes import get_quote
+import os
 
 @route('/')
 def home():
